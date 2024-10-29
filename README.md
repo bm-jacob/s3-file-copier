@@ -11,6 +11,18 @@
 - Filter by S3 updatedLast time (the file PutObject time when versioning is disabled)
 - Append prefixes to copied files
 
+## Prerequisites
+
+    Python 3.10+
+    Required Python modules (see requirements.txt)
+
+## Installation
+
+    Clone this repository:
+    Install required Python modules:
+
+`pip install -r requirements.txt`
+
 ## Logging
 
 Logs to console and ./file_copy.log
